@@ -1,0 +1,16 @@
+Paper Link:- https://www.nature.com/articles/s41592-019-0403-1
+
+Key Index: DL- Deep learning, CV- Computer vision.
+
+500 Word Summary:
+
+This review serves as a practical introduction to deep learning and its intricacies for the prediction and analysis of biological images. Advances in imaging have transformed the biological science enabling researchers and scientists to access temporal and spatial variation inherent in living systems. With technological advances such as progress in optics, improvements in fluorescent probes allow for a variety of dynamic measurements of the living cells. 
+
+DL is a set of machine learning techniques, specifically neural networks that learn effective representation of data with multiple levels of abstraction, allowing the learning to be either supervised or unsupervised. Models built for deep learning training are very computationaly heavy which makes it harder to run on CPU's memory but with the use of GPU's this can be avoided and in turn made faster.
+
+There are 3 essential components to the successful application of DL to biological images: construction of a pertinent and annotated training dataset, effective training of DL models on the said dataset and deployment of trained models. Limitations of DL can be overcome by using techniques like image normalization(reduces variation and size of the data), data augmentation(helps in increasing the data size when we have limited amount of it) or transfer learning(helps create robust models by learning on another dataset which is content heavy).
+
+Implementation of DL in the field of biological science branches further into smaller more focused branches. So, for example, the process of identifying whether a protein is expressed in the cytoplasm or the nucleus on the basis of fluorescence would fall under the category of Image classification which is the task of assigning a meaningful label to an image . While, when we are identifying each and every cell in an image to the pixel level is an example of Image segmentation. Image segmentation can be further divided into Instance and semantic segmentation. Making the potential use cases of image segmentation to be vast and the improved accuracy of DL based approaches both automates traditional CV workflows and makes previously impossible segmentation tasks possible. Another great example is Object tracking which consists of object detection and object linkage, the task is of following and keeping track of objects in a temporal data. While another major implementation aspect is Augmented microscopy which is the extraction of latent information from biological images such as the identification of the location of cellular nuclei in bright-field images. It is a technique which is not only limited to this but can also be applied to other areas like providing content-aware image denoising.
+
+Although these techniques have existed in mathematical forms for many decades, due to various limitations like hardware requirements, big dataset etc. they have remained in hibernation but when a DL based model won the 2012 ImageNet challenge it provided wings to the development of DL in various fields. While, deep learning is yet to be widely adopted for main stream research and implementation, it has started making its mark and history in biological advancements.
+
