@@ -22,3 +22,7 @@ Performance boost by studying Confusion Matrix:-
   <img src="https://github.com/coderop2/tissue-images-to-organ-systems/blob/main/images/custom_model.png" width="350" title="Custom model confusion matrix">
   <img src="https://github.com/coderop2/tissue-images-to-organ-systems/blob/main/images/vgg.png" width="350" alt="VGG model confusion matrix">
 </p>
+
+I have also with the help of TSNE & PCA algorithm plotted each training and testing image on a 2D map. I have taken this a step further by using TSNE & PCA on layer outputs of the model to understand how the model is working on a layer by layer basis.
+Like i have 5 layer so i am passing output from each layer (while taking input as the image itself) to TSNE to generate 2 best components and plotting then on the map to see which layer performs the best at identifying the images and explains what pecularity about the dataset.
+Since the training data is pretty tightly weaved the custom model is finding it hard to distinguish between each class and easily ends up overfitting.
