@@ -1,4 +1,6 @@
 # Tissue Images-to-Organ Mapping
+Made by:- Harshit Khandelwal (hkhandel@iu.edu)
+
 Classification and segmentation of Tissue images
 
 Oservations:-
