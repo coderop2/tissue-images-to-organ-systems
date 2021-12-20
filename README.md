@@ -1,4 +1,4 @@
-# Tissue Images-to-Organ
+# Tissue Images-to-Organ Mapping
 Classification and segmentation of Tissue images
 
 Oservations:-
